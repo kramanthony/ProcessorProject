@@ -145,4 +145,11 @@ public class ProcSkel {
     public void setReqProcType(String reqProcType) {
         this.reqProcType = reqProcType;
     }
+    public void displayProcInfo() {
+        System.out.println(getGfxMaxMem());
+        System.out.println(getProcFreq());
+        System.out.println(getCoreCount());
+        System.out.println(getProcNum());
+        System.out.println(getProcGfx());
+    } // close displayProcInfo
 }
